@@ -101,8 +101,8 @@ The API will be accessible at `http://localhost:8080`.
 ## Libraries and Tools Used
 
 The following libraries and tools are used in this API:
-- Language : <img src="./images/icons8-java-48.png" height=25> Java (JDK 20) 
-- Framework: <img src="./images/icons8-spring-boot-48.png" height=25> SpringBoot (3.1.2 Snapshot) 
+- Language : <img src="./image/icons8-java-48.png" height=25> Java (JDK 20) 
+- Framework: <img src="./image/icons8-spring-boot-48.png" height=25> SpringBoot (3.1.2 Snapshot) 
 
 ## Dependencies
 Maven Dependencies used:
