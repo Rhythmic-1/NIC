@@ -36,7 +36,7 @@ To create Postgres database in CLI, follow these steps:
 
 1.Insert Data:
 
-   `INSERT INTO test(id,name,agefrom,ageto,gender,minresult,maxresult,unit) VALUES (1,'hemoglobin',13,50,'M',12,16,'g/dl'); `
+   `INSERT INTO test(id,testname,startingage,endingage,gender,minresult,maxresult,unit) VALUES (1,'hemoglobin',13,50,'M',12,16,'g/dl'); `
 
 2.Follow above step to insert more data by changing respective values.
 
@@ -44,7 +44,7 @@ The API will be accessible at `http://localhost:8080`.
 
 ## Description
 ### Validating Report Data
-**Endpoint:** `/task/reportvalidity`
+**Endpoint:** `/base/request`
 
 **Method:** POST
 
