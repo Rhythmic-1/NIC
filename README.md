@@ -110,6 +110,7 @@ Maven Dependencies used:
 - spring-boot-starter-jdbc
 - Postgresql Driver
 - spring-boot-starter-web
+- spring-boot-starter-actuator
 
 
 ## License
