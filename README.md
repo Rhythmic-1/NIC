@@ -10,7 +10,7 @@ To create Postgres database in CLI, follow these steps:
 
 2.Create Database:
 
-   `CREATE DATABASE test `
+   `CREATE DATABASE onepostgres `
 
 ## Build and Run
 To build and run the Lab Report Validating API, follow these steps:
@@ -54,14 +54,14 @@ The API will be accessible at `http://localhost:8080`.
 
 | Parameter   |      Type      |           Description          |
 |-------------|:--------------:|-------------------------------:|
-|  test_id    |     integer    |      Particular test id number |
+|  testingid  |     integer    |      Particular test id number |
 |  result     |     float      |      Particular Test Result    |
 |  unit       |     string     |      Particular Test Unit      |
 |  gender     |     string     |      Particular Test Gender    |
 |  age        |     integer    |      Particular Test Age       |
 
 <center>
-<img src="./images/image.png" alt="thunderclient-header">
+<img src="./image/image.png" alt="thunderclient-header">
 </center>
 
 
@@ -69,15 +69,15 @@ The API will be accessible at `http://localhost:8080`.
 
 1. Result Exceeding Upper Limit
 - *Status Code:* 200 OK
-- *Body:* `High->(test_name)`
+- *Body:* `High(test_name)`
 
 2. Result Below Lower Limit
 - *Status Code:* 200 OK
-- *Body:* `Low->(test_name)`
+- *Body:* `Low(test_name)`
 
 3.1. Result In Range
 - *Status Code:* 200 OK
-- *Body:* `Normal->(test_name)`
+- *Body:* `Normal(test_name)`
 
 
 
@@ -90,6 +90,10 @@ The API will be accessible at `http://localhost:8080`.
 2. Particular Test_ID Doesnot Exist
 - *Status Code:* 400 Bad Request
 - *Body:* `Invalid Report`
+
+3. Particular TestingID Result Less Than Zero
+- *Status Code:* 400 Bad Request
+- *Body:* `Error in the test(test_name)`
 
 
 
@@ -113,4 +117,4 @@ This API is open source and licensed under the MIT License.
 
 
 ## Contributions
-Contributions to this project are welcome. If you encounter any issues or have suggestions for improvements, please open an issue or submit a pull request on the project's repository or mail me at arghajitbhowmik08@gmail.com
+Contributions to this project are welcome. If you encounter any issues or have suggestions for improvements, please open an issue or submit a pull request on the project's repository or mail me at neelsubhra777@gmail.com
