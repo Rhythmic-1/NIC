@@ -29,7 +29,7 @@ To build and run the Lab Report Validating API, follow these steps:
    
 4. Run the application:
    
-   `java -jar target/project-0.0.1-SNAPSHOT.jar`
+   `java -jar target/demo-0.0.1-SNAPSHOT.jar`
    
 ## INSERT DATA INTO TABLE
 To create Postgres database in CLI, follow these steps:
